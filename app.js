@@ -1,5 +1,6 @@
 const express = require("express");
 require("dotenv").config();
+require("./config/database");
 
 const apiRoutes = require("./routes/api");
 const webRoutes = require("./routes/web");
